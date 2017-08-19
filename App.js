@@ -7,7 +7,6 @@ import Navigation from './src/components/Navigation';
 
 const store = createStore(reducers);
 
-
 const App = () => (
   <Provider store={store}>
     <Navigation />
